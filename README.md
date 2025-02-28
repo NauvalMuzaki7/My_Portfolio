@@ -168,3 +168,6 @@ Meanwhile, JKSE Stock Index Close Price Data without using stationarity handling
 
 - Bachelor of Statistics, Padjadjaran University, 2024
 - Machine Learning Path, Bangkit Academy 2024 By Google, GoTo, Traveloka, 2024
+- [Google Data Analytics Professional Certificate](https://coursera.org/verify/professional-cert/J3NXMPEVB6MY)
+- [Machine Learning Specialization](https://coursera.org/share/177b657224b2626ee72391291a0ee48b)
+- [HackerRank SQL Intermediate](https://www.hackerrank.com/certificates/a88e4b232962)
