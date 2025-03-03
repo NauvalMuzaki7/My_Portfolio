@@ -81,22 +81,7 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 
 **Result**: After december 2012, the trend of the total bike users tend to a bit uptrend. and the forecast pattern during following the actual data visually following the pattern.
 
-## 3. K-Means Clustering of Poverty in Central Java
-**Description**: Poverty poses a complex challenge and is a significant issue in Indonesia. The province of Central Java is characterized by a substantial population living in poverty. The aim of this research is to conduct an analysis of poverty clustering based on Districts/Cities in Central Java in 2021 using the K-Means Clustering method. As analytical material, secondary data comprising poverty indicators from the Central Statistics Agency of Central Java for the year 2021 has been utilized. The K-Means Clustering method is employed to group Districts/Cities based on similar characteristics of poverty.  
-
-**Result**: The research results indicate the presence of two main clusters, namely Cluster 1 with an average percentage of the population in poverty at 10.75%, and Cluster 2 with an average percentage of the population in poverty at 13.97%. Cluster 2 involves several Districts/Cities with a higher poverty rate compared to Cluster 1.  
-
-### Data Wrangling
-**Description**: Gather data from BPS Website, Then assess the data, and clean raw data into a format suitable for analysis.  
-
-**Requirements**: R, MySQL.  
-
-**Result**: The clean data without missing values, duplicate data, and inaccurate values so data suitable to be explored and for further analysis.  
-
-### K-Means Clustering
-Based on the results of determining the number of clusters using the silhouette method, the ideal number of clusters obtained is 2 clusters. This means that the classification of poverty in the regions of Central Java Province in 2021 will be grouped into 2 clusters.  
-
-## 4. JKSE Stock Price Prediction Using Long-Short Term Memory With and Without Stationarity Input
+## 3. JKSE Stock Price Prediction Using Long-Short Term Memory With and Without Stationarity Input
 **Description**: In conducting LSTM (Long Short-Term Memory) analysis using JKSE (Jakarta Stock Exchange) stock prices, the focus lies on leveraging LSTM, a type of recurrent neural network (RNN), renowned for its capability to capture long-term dependencies in sequential data, to predict future stock price movements.  
 
 **Requirements**: Python, Tensorflow, Numpy, Pandas, Matplotlib, Seaborn.  
@@ -125,6 +110,21 @@ JKSE Stock Index Close Price data using stationarity handling modeled using the 
 
 Meanwhile, JKSE Stock Index Close Price Data without using stationarity handling modeled using the five methods, the best model for predicting validation data is to use the Bidirectional LSTM method with an RMSE value of 26.26 and an MAE value of 20.44. Meanwhile, to predict the next 4 periods (days) of data, the best model is the Vanilla LSTM model with an RMSE value of 37.21 and MAE of 28.72.
 
+## 4. K-Means Clustering of Poverty in Central Java
+**Description**: Poverty poses a complex challenge and is a significant issue in Indonesia. The province of Central Java is characterized by a substantial population living in poverty. The aim of this research is to conduct an analysis of poverty clustering based on Districts/Cities in Central Java in 2021 using the K-Means Clustering method. As analytical material, secondary data comprising poverty indicators from the Central Statistics Agency of Central Java for the year 2021 has been utilized. The K-Means Clustering method is employed to group Districts/Cities based on similar characteristics of poverty.  
+
+**Result**: The research results indicate the presence of two main clusters, namely Cluster 1 with an average percentage of the population in poverty at 10.75%, and Cluster 2 with an average percentage of the population in poverty at 13.97%. Cluster 2 involves several Districts/Cities with a higher poverty rate compared to Cluster 1.  
+
+### Data Wrangling
+**Description**: Gather data from BPS Website, Then assess the data, and clean raw data into a format suitable for analysis.  
+
+**Requirements**: R, MySQL.  
+
+**Result**: The clean data without missing values, duplicate data, and inaccurate values so data suitable to be explored and for further analysis.  
+
+### K-Means Clustering
+Based on the results of determining the number of clusters using the silhouette method, the ideal number of clusters obtained is 2 clusters. This means that the classification of poverty in the regions of Central Java Province in 2021 will be grouped into 2 clusters.  
+
 ## 5. Using Multidimensional Scaling for Grouping Social Media Influencers
 **Description**: This project aims to group social media influencers based on multiple factors such as follower count, engagement rates, and post frequency, using Multidimensional Scaling (MDS). MDS is used to visualize the similarity or dissimilarity between influencers, providing insights into how different influencers compare and form clusters.
 
@@ -152,8 +152,8 @@ Meanwhile, JKSE Stock Index Close Price Data without using stationarity handling
 
 - [SANO: Disease Condition Predictor](https://github.com/NauvalMuzaki7/SANO_Bangkit-Academy-Project): Repository of Classification Machine Learning Project
 - [Bike Sharing Project](https://github.com/NauvalMuzaki7/Data_Analysis_Project): Showing all analysis steps of Bike Sharing Dataset.
+- [Forecasting with LSTM Project](https://github.com/NauvalMuzaki7/LSTM_Project/blob/main/Univariat_Timeseries_Close_JKSE_LSTM_without_differencing_method_(1).ipynb): JKSE Stock Price Prediction Using Long-Short Term Memory With and Without Stationarity Input.
 - [K-Means Clustering Project](https://github.com/NauvalMuzaki7/Clustering_Project): Grouping Poverty by District/City in Central Java in 2021 Using K-Means Clustering.
-- [Support Vector Regression Project](https://github.com/NauvalMuzaki7/LSTM_Project/blob/main/Univariat_Timeseries_Close_JKSE_LSTM_without_differencing_method_(1).ipynb): JKSE Stock Price Prediction Using Long-Short Term Memory With and Without Stationarity Input.
 - [Multidimensional Scaling Project](https://github.com/NauvalMuzaki7/MDS_Project): Grouping Social Media Influencers using Multidimensional Scaling.
 
 ## Skills
