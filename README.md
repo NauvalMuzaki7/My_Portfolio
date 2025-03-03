@@ -54,7 +54,34 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 
 - [Link to Model Result](https://github.com/mariown/C241-PS439_Sano_Bangkit/tree/ML): The result consists of all the model evaluation metrics.
 
-## 2. Bike Sharing Data Analysis
+## 2. US Flight Delay Dashboard  
+
+![Alt text](https://public.tableau.com/shared/WY9DGK558?:display_count=n&:origin=viz_share_link)  
+
+**Description**: This Tableau dashboard provides an in-depth analysis of flight delays across the United States, helping users understand key patterns, trends, and contributing factors. The interactive visualization allows users to explore flight delay data by airline, airport, time of year, and other critical metrics. The goal of this project is to help identify insights that could be useful for travelers, airlines, and policymakers to mitigate delays effectively.  
+
+- [Link to Dashboard](https://public.tableau.com/shared/WY9DGK558?:display_count=n&:origin=viz_share_link): Interactive Tableau dashboard analyzing US flight delays.  
+
+**Requirements**: Tableau, SQL, Python, Pandas.  
+
+**Result**: The dashboard reveals seasonal variations in flight delays, showing peak delay periods during certain months. Specific airlines and airports have higher average delays, providing insights into potential areas for operational improvements.  
+
+### Data Wrangling  
+**Description**: Data was collected from flight records, cleaned, and structured to ensure accuracy. This involved handling missing values, filtering relevant data, and optimizing the dataset for visualization.  
+
+**Requirements**: Python, Pandas, SQL.  
+
+**Result**: A clean and structured dataset ready for visualization and analysis.  
+
+### Exploratory Data Analysis & Data Visualization  
+**Description**: Various statistical methods and visualizations were used to analyze flight delay trends and patterns.  
+
+**Requirements**: Tableau, SQL, Python, Pandas, Matplotlib, Seaborn.  
+
+**Result**: The analysis highlights which airlines, airports, and time periods are most affected by delays, offering actionable insights for stakeholders in the aviation industry.  
+
+
+## 3. Bike Sharing Data Analysis
 
 ![Alt text](https://github.com/NauvalMuzaki7/Data_Analysis_Project/blob/main/Screenshot%202025-03-03%20at%2015.09.55.png)
 **Description**: This dashboard is a powerful tool designed to provide comprehensive insights into bike sharing systems usage patterns and trends. This interactive dashboard leverages data visualization techniques to present key metrics and analytics in a user-friendly interface, catering to both casual users and data enthusiasts alike.  
@@ -86,7 +113,7 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 
 **Result**: After december 2012, the trend of the total bike users tend to a bit uptrend. and the forecast pattern during following the actual data visually following the pattern.
 
-## 3. JKSE Stock Price Prediction Using Long-Short Term Memory With and Without Stationarity Input
+## 4. JKSE Stock Price Prediction Using Long-Short Term Memory With and Without Stationarity Input
 
 ![Alt text](https://github.com/NauvalMuzaki7/LSTM_Project/blob/main/Screenshot%202025-03-03%20at%2015.15.12.png)
 **Description**: In conducting LSTM (Long Short-Term Memory) analysis using JKSE (Jakarta Stock Exchange) stock prices, the focus lies on leveraging LSTM, a type of recurrent neural network (RNN), renowned for its capability to capture long-term dependencies in sequential data, to predict future stock price movements.  
@@ -119,7 +146,7 @@ JKSE Stock Index Close Price data using stationarity handling modeled using the 
 
 Meanwhile, JKSE Stock Index Close Price Data without using stationarity handling modeled using the five methods, the best model for predicting validation data is to use the Bidirectional LSTM method with an RMSE value of 26.26 and an MAE value of 20.44. Meanwhile, to predict the next 4 periods (days) of data, the best model is the Vanilla LSTM model with an RMSE value of 37.21 and MAE of 28.72.
 
-## 4. K-Means Clustering of Poverty in Central Java
+## 5. K-Means Clustering of Poverty in Central Java
 
 ![Alt text](https://github.com/NauvalMuzaki7/Clustering_Project/blob/main/Screenshot%202025-03-02%20at%2016.24.23.png)
 **Description**: Poverty poses a complex challenge and is a significant issue in Indonesia. The province of Central Java is characterized by a substantial population living in poverty. The aim of this research is to conduct an analysis of poverty clustering based on Districts/Cities in Central Java in 2021 using the K-Means Clustering method. As analytical material, secondary data comprising poverty indicators from the Central Statistics Agency of Central Java for the year 2021 has been utilized. The K-Means Clustering method is employed to group Districts/Cities based on similar characteristics of poverty.  
@@ -138,7 +165,7 @@ Meanwhile, JKSE Stock Index Close Price Data without using stationarity handling
 ### K-Means Clustering
 Based on the results of determining the number of clusters using the silhouette method, the ideal number of clusters obtained is 2 clusters. This means that the classification of poverty in the regions of Central Java Province in 2021 will be grouped into 2 clusters.  
 
-## 5. Using Multidimensional Scaling for Grouping Social Media Influencers
+## 6. Using Multidimensional Scaling for Grouping Social Media Influencers
 
 ![Alt text](https://github.com/NauvalMuzaki7/MDS_Project/blob/main/Screenshot%202025-03-02%20at%2016.54.50.png)
 **Description**: This project aims to group social media influencers based on multiple factors such as follower count, engagement rates, and post frequency, using Multidimensional Scaling (MDS). MDS is used to visualize the similarity or dissimilarity between influencers, providing insights into how different influencers compare and form clusters.
@@ -168,6 +195,7 @@ Based on the results of determining the number of clusters using the silhouette 
 ### Link to Project
 
 - [SANO: Disease Condition Predictor](https://github.com/NauvalMuzaki7/SANO_Bangkit-Academy-Project): Repository of Classification Machine Learning Project
+- [US Flight Delay Dashboard](https://public.tableau.com/shared/WY9DGK558?:display_count=n&:origin=viz_share_link): Interactive Tableau dashboard analyzing US flight delays. 
 - [Bike Sharing Project](https://github.com/NauvalMuzaki7/Data_Analysis_Project): Showing all analysis steps of Bike Sharing Dataset.
 - [Forecasting with LSTM Project](https://github.com/NauvalMuzaki7/LSTM_Project/blob/main/Univariat_Timeseries_Close_JKSE_LSTM_without_differencing_method_(1).ipynb): JKSE Stock Price Prediction Using Long-Short Term Memory With and Without Stationarity Input.
 - [K-Means Clustering Project](https://github.com/NauvalMuzaki7/Clustering_Project): Grouping Poverty by District/City in Central Java in 2021 Using K-Means Clustering.
