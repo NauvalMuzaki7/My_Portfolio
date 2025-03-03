@@ -6,6 +6,9 @@ As a final-year Statistics major, I bring a robust foundation in data analysis, 
 # Top Projects
 
 ## 1. SANO: Disease Condition Predictor
+
+![Alt text](https://github.com/NauvalMuzaki7/SANO_Bangkit-Academy-Project/blob/main/Sano%20Presentation%20Slides.png)
+
 **Description**: My team was motivated by the prospect of leveraging machine learning techniques to develop a tool that could assist in the timely identification of these critical health conditions. The "Sano - Disease Condition Predictor" project focuses on using machine learning implementation to predict three major diseases: heart disease, stroke, and diabetes using ML classification algorithm.
 
 - [Link to Repository](https://github.com/NauvalMuzaki7/SANO_Bangkit-Academy-Project): Repository of our Classification Project
@@ -52,6 +55,8 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 - [Link to Model Result](https://github.com/mariown/C241-PS439_Sano_Bangkit/tree/ML): The result consists of all the model evaluation metrics.
 
 ## 2. Bike Sharing Data Analysis
+
+![Alt text](https://github.com/NauvalMuzaki7/Data_Analysis_Project/blob/main/Screenshot%202025-03-03%20at%2015.09.55.png)
 **Description**: This dashboard is a powerful tool designed to provide comprehensive insights into bike sharing systems usage patterns and trends. This interactive dashboard leverages data visualization techniques to present key metrics and analytics in a user-friendly interface, catering to both casual users and data enthusiasts alike.  
 
 - [Link to Dashboard](https://dashboard-bikesharing-nauval.streamlit.app/): Interactive dashbord for accessing the data visualization of the Bike Sharing Data Analysis Project.
@@ -82,7 +87,11 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 **Result**: After december 2012, the trend of the total bike users tend to a bit uptrend. and the forecast pattern during following the actual data visually following the pattern.
 
 ## 3. JKSE Stock Price Prediction Using Long-Short Term Memory With and Without Stationarity Input
+
+![Alt text](https://github.com/NauvalMuzaki7/SANO_Bangkit-Academy-Project/blob/main/Sano%20Presentation%20Slides.png)
 **Description**: In conducting LSTM (Long Short-Term Memory) analysis using JKSE (Jakarta Stock Exchange) stock prices, the focus lies on leveraging LSTM, a type of recurrent neural network (RNN), renowned for its capability to capture long-term dependencies in sequential data, to predict future stock price movements.  
+
+- [Link to LSTM Forecasting Repository](https://github.com/NauvalMuzaki7/LSTM_Project/blob/main/Univariat_Timeseries_Close_JKSE_LSTM_without_differencing_method_(1).ipynb)
 
 **Requirements**: Python, Tensorflow, Numpy, Pandas, Matplotlib, Seaborn.  
 
@@ -111,7 +120,11 @@ JKSE Stock Index Close Price data using stationarity handling modeled using the 
 Meanwhile, JKSE Stock Index Close Price Data without using stationarity handling modeled using the five methods, the best model for predicting validation data is to use the Bidirectional LSTM method with an RMSE value of 26.26 and an MAE value of 20.44. Meanwhile, to predict the next 4 periods (days) of data, the best model is the Vanilla LSTM model with an RMSE value of 37.21 and MAE of 28.72.
 
 ## 4. K-Means Clustering of Poverty in Central Java
+
+![Alt text](https://github.com/NauvalMuzaki7/Clustering_Project/blob/main/Screenshot%202025-03-02%20at%2016.24.23.png)
 **Description**: Poverty poses a complex challenge and is a significant issue in Indonesia. The province of Central Java is characterized by a substantial population living in poverty. The aim of this research is to conduct an analysis of poverty clustering based on Districts/Cities in Central Java in 2021 using the K-Means Clustering method. As analytical material, secondary data comprising poverty indicators from the Central Statistics Agency of Central Java for the year 2021 has been utilized. The K-Means Clustering method is employed to group Districts/Cities based on similar characteristics of poverty.  
+
+- [Link to Clustering Analysis Project](https://github.com/NauvalMuzaki7/Clustering_Project)
 
 **Result**: The research results indicate the presence of two main clusters, namely Cluster 1 with an average percentage of the population in poverty at 10.75%, and Cluster 2 with an average percentage of the population in poverty at 13.97%. Cluster 2 involves several Districts/Cities with a higher poverty rate compared to Cluster 1.  
 
@@ -126,7 +139,11 @@ Meanwhile, JKSE Stock Index Close Price Data without using stationarity handling
 Based on the results of determining the number of clusters using the silhouette method, the ideal number of clusters obtained is 2 clusters. This means that the classification of poverty in the regions of Central Java Province in 2021 will be grouped into 2 clusters.  
 
 ## 5. Using Multidimensional Scaling for Grouping Social Media Influencers
+
+![Alt text](https://github.com/NauvalMuzaki7/MDS_Project/blob/main/Screenshot%202025-03-02%20at%2016.54.50.png)
 **Description**: This project aims to group social media influencers based on multiple factors such as follower count, engagement rates, and post frequency, using Multidimensional Scaling (MDS). MDS is used to visualize the similarity or dissimilarity between influencers, providing insights into how different influencers compare and form clusters.
+
+- [Link to Multidimensional Scaling Project](https://github.com/NauvalMuzaki7/MDS_Project)
 
 **Requirements**: Python, Pandas, scikit-learn, Matplotlib, Seaborn.
 
