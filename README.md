@@ -56,7 +56,7 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 
 ## 2. US Flight Delay Dashboard  
 
-![Alt text](https://public.tableau.com/shared/WY9DGK558?:display_count=n&:origin=viz_share_link)  
+![Alt text](https://github.com/NauvalMuzaki7/My_Portfolio/blob/main/US%20Flight%20Delay.png)  
 
 **Description**: This Tableau dashboard provides an in-depth analysis of flight delays across the United States, helping users understand key patterns, trends, and contributing factors. The interactive visualization allows users to explore flight delay data by airline, airport, time of year, and other critical metrics. The goal of this project is to help identify insights that could be useful for travelers, airlines, and policymakers to mitigate delays effectively.  
 
