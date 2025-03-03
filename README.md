@@ -62,21 +62,21 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 
 - [Link to Dashboard](https://public.tableau.com/shared/WY9DGK558?:display_count=n&:origin=viz_share_link): Interactive Tableau dashboard analyzing US flight delays.  
 
-**Requirements**: Tableau, SQL, Python, Pandas.  
+**Requirements**: Tableau, Excel.  
 
 **Result**: The dashboard reveals seasonal variations in flight delays, showing peak delay periods during certain months. Specific airlines and airports have higher average delays, providing insights into potential areas for operational improvements.  
 
 ### Data Wrangling  
 **Description**: Data was collected from flight records, cleaned, and structured to ensure accuracy. This involved handling missing values, filtering relevant data, and optimizing the dataset for visualization.  
 
-**Requirements**: Python, Pandas, SQL.  
+**Requirements**: Excel.  
 
 **Result**: A clean and structured dataset ready for visualization and analysis.  
 
 ### Exploratory Data Analysis & Data Visualization  
 **Description**: Various statistical methods and visualizations were used to analyze flight delay trends and patterns.  
 
-**Requirements**: Tableau, SQL, Python, Pandas, Matplotlib, Seaborn.  
+**Requirements**: Excel
 
 **Result**: The analysis highlights which airlines, airports, and time periods are most affected by delays, offering actionable insights for stakeholders in the aviation industry.  
 
