@@ -88,7 +88,7 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 
 ## 3. JKSE Stock Price Prediction Using Long-Short Term Memory With and Without Stationarity Input
 
-![Alt text](https://github.com/NauvalMuzaki7/SANO_Bangkit-Academy-Project/blob/main/Sano%20Presentation%20Slides.png)
+![Alt text](https://github.com/NauvalMuzaki7/LSTM_Project/blob/main/Screenshot%202025-03-03%20at%2015.15.12.png)
 **Description**: In conducting LSTM (Long Short-Term Memory) analysis using JKSE (Jakarta Stock Exchange) stock prices, the focus lies on leveraging LSTM, a type of recurrent neural network (RNN), renowned for its capability to capture long-term dependencies in sequential data, to predict future stock price movements.  
 
 - [Link to LSTM Forecasting Repository](https://github.com/NauvalMuzaki7/LSTM_Project/blob/main/Univariat_Timeseries_Close_JKSE_LSTM_without_differencing_method_(1).ipynb)
