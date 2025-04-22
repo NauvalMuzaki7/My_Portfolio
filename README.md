@@ -70,7 +70,7 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
   
 ### Looker Studio Dashboard: E-Commerce Sales Performance Dashboard
 
-![Alt text](https://github.com/NauvalMuzaki7/My_Portfolio/blob/main/US%20Flight%20Delay.png)  
+![Alt text](https://github.com/NauvalMuzaki7/My_Portfolio/blob/main/E%20commerce%20performance%20Looker%20Studio%20Dashboard.png)  
 
 **Description**: This interactive dashboard built using Looker Studio provides a comprehensive analysis of an e-commerce platform's sales performance. The dashboard allows stakeholders to monitor key performance indicators such as total revenue, number of orders, average order value, product category performance, and regional sales distribution. It's designed to support data-driven decision-making for marketing strategies and inventory planning. 
 
