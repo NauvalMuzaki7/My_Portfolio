@@ -54,7 +54,9 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 
 - [Link to Model Result](https://github.com/mariown/C241-PS439_Sano_Bangkit/tree/ML): The result consists of all the model evaluation metrics.
 
-## 2. US Flight Delay Dashboard  
+## 2. Interactive Dashboard
+
+### Tableau Dashboard: US Flight Delay Dashboard  
 
 ![Alt text](https://github.com/NauvalMuzaki7/My_Portfolio/blob/main/US%20Flight%20Delay.png)  
 
@@ -65,21 +67,18 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 **Requirements**: Tableau, Excel.  
 
 **Result**: The dashboard reveals seasonal variations in flight delays, showing peak delay periods during certain months. Specific airlines and airports have higher average delays, providing insights into potential areas for operational improvements.  
+  
+### Looker Studio Dashboard: E-Commerce Sales Performance Dashboard
 
-### Data Wrangling  
-**Description**: Data was collected from flight records, cleaned, and structured to ensure accuracy. This involved handling missing values, filtering relevant data, and optimizing the dataset for visualization.  
+![Alt text](https://github.com/NauvalMuzaki7/My_Portfolio/blob/main/US%20Flight%20Delay.png)  
 
-**Requirements**: Excel.  
+**Description**: This interactive dashboard built using Looker Studio provides a comprehensive analysis of an e-commerce platform's sales performance. The dashboard allows stakeholders to monitor key performance indicators such as total revenue, number of orders, average order value, product category performance, and regional sales distribution. It's designed to support data-driven decision-making for marketing strategies and inventory planning. 
 
-**Result**: A clean and structured dataset ready for visualization and analysis.  
+- [Link to Dashboard](https://lookerstudio.google.com/reporting/93020514-9e9f-4696-9f0a-ebe28d96646b): Interactive Looker Studio dashboard visualizing E-Commerce sales performance.  
 
-### Exploratory Data Analysis & Data Visualization  
-**Description**: Various statistical methods and visualizations were used to analyze flight delay trends and patterns.  
+**Requirements**: Google Looker Studio, Google Sheets / Excel.  
 
-**Requirements**: Excel
-
-**Result**: The analysis highlights which airlines, airports, and time periods are most affected by delays, offering actionable insights for stakeholders in the aviation industry.  
-
+**Result**: A real-time, interactive dashboard providing executives and analysts with quick access to core business insights.  
 
 ## 3. Bike Sharing Data Analysis
 
