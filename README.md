@@ -1,7 +1,7 @@
 # Muhammad Nauval Muzaki - Portfolio
 ## Data Analyst | Data-Driven Solutions
 
-As a final-year Statistics major, I bring a robust foundation in data analysis, visualization, and organization. My passion for data analytics is demonstrated through my strong analytical skills, having knowledge of developing Deep Learning and classic Machine Learning fundamentals, honed by hands-on experience in interpreting complex data sets. My academic journey has been marked by continuous growth in the use of advanced statistical tools, preparing me for challenging roles in the field of data analytics.
+As a Bachelor of Statistics, I bring a robust foundation in data analysis, visualization, and organization. My passion for data analytics is demonstrated through my strong analytical skills, having knowledge of developing Deep Learning and classic Machine Learning fundamentals, honed by hands-on experience in interpreting complex data sets. My academic journey has been marked by continuous growth in the use of advanced statistical tools, preparing me for challenging roles in the field of data analytics.
 
 # Top Projects
 
