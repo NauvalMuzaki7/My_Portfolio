@@ -5,7 +5,40 @@ As a Bachelor of Statistics, I bring a robust foundation in data analysis, visua
 
 # Top Projects
 
-## 1. SANO: Disease Condition Predictor
+## 1. Text Classification: A Comparative Analysis of Fine-Tuning Two Stage IndoBERT vs. Zero-Shot Gemini API
+
+![Project Architecture]([https://i.imgur.com/L13G3sH.png](https://github.com/NauvalMuzaki7/GeminiAPI-VS-IndoBERT/blob/main/1.png))
+
+**Description**: This project conducts an in-depth comparative analysis between two advanced approaches for text classification on customer feedback data. The objective is to evaluate the trade-offs between a "classical" fine-tuning-based method (using a **Two-Stage IndoBERT**) and a "modern" Large Language Model-based method (using the **Gemini API** in a zero-shot setting). This case study seeks to answer the question: when should we invest in a complex, specialized model, and when can we leverage the power of a generalist model for fast and flexible results?
+
+- [Link to Repository](https://github.com/NauvalMuzaki7/GeminiAPI-VS-IndoBERT): Repository containing the analysis notebooks, models, and full presentation.
+
+**Requirements**: Python, PyTorch, Pandas, Scikit-learn, Transformers, Google Colab, Google Generative AI, Gspread.
+
+**Result**:
+The analysis reveals that both methods deliver highly competitive performance.
+- **Two-Stage IndoBERT** achieved a slightly higher F1-Score (**~98%**) after an extensive fine-tuning and data balancing process, proving its excellence in a highly specific task.
+- **Gemini API** demonstrated phenomenal zero-shot capabilities, reaching **98% accuracy** on new test data without any prior training.
+The conclusion is that there is no absolute winner; the optimal choice depends on business priorities, trading off between **optimization & control (IndoBERT)** versus **speed & flexibility (Gemini)**.
+
+### Methodology 1: Two-Stage IndoBERT (The "Specialist" Approach)
+**Description**: This approach utilizes a hierarchical classification architecture to improve granularity and accuracy.
+- **Stage 1 - Gatekeeper Model**: The first IndoBERT model is trained to classify comments into 3 general categories (Positive, Suggestion, Uncategorized).
+- **Stage 2 - Topic Specialist Model**: If a comment is classified as 'Suggestion', it is passed to a second IndoBERT model trained to classify it into 22 more detailed sub-categories.
+- **Key Techniques**: This process involved **data balancing** (a combination of over/under sampling) and the use of **Weighted Cross-Entropy Loss** to handle the imbalanced class distribution.
+
+### Methodology 2: Gemini API (The "Generalist" Approach)
+**Description**: This approach leverages the in-context learning capabilities of the `gemini-1.5-pro` model to perform classification without fine-tuning.
+- **Prompt Engineering**: A carefully designed prompt instructs Gemini to perform hierarchical classification in a single step. The prompt includes the task definition, a list of valid categories, edge case handling (for empty comments), and strict output formatting (JSON/list) for programmatic parsing.
+- **Automated Pipeline**: A Python script was developed to read data from Google Sheets, process it in batches, send requests to the Gemini API, and robustly handle responses (including rate limiting and error handling).
+
+### Comparative Evaluation
+**Description**: Both pipelines (Two-Stage IndoBERT and Gemini API) were evaluated against the same unseen test set to ensure a fair comparison. The metrics used were Accuracy, Precision, Recall, and F1-Score (Macro Average).
+- **Quantitative Results**: A direct comparison of performance metrics.
+- **Qualitative Results**: A case study analysis of specific comments where one model outperformed the other.
+- **Cost & Time Analysis**: A non-technical comparison of development time, operational costs, flexibility, and maintenance complexity.
+
+## 2. SANO: Disease Condition Predictor
 
 ![Alt text](https://github.com/NauvalMuzaki7/SANO_Bangkit-Academy-Project/blob/main/Sano%20Presentation%20Slides.png)
 
@@ -54,7 +87,7 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 
 - [Link to Model Result](https://github.com/mariown/C241-PS439_Sano_Bangkit/tree/ML): The result consists of all the model evaluation metrics.
 
-## 2. Interactive Dashboard
+## 3. Interactive Dashboard
 
 ### Tableau Dashboard: US Flight Delay Dashboard  
 
@@ -80,7 +113,7 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 
 **Result**: A real-time, interactive dashboard providing executives and analysts with quick access to core business insights.  
 
-## 3. Bike Sharing Data Analysis
+## 4. Bike Sharing Data Analysis
 
 ![Alt text](https://github.com/NauvalMuzaki7/Data_Analysis_Project/blob/main/Screenshot%202025-03-03%20at%2015.09.55.png)
 **Description**: This dashboard is a powerful tool designed to provide comprehensive insights into bike sharing systems usage patterns and trends. This interactive dashboard leverages data visualization techniques to present key metrics and analytics in a user-friendly interface, catering to both casual users and data enthusiasts alike.  
@@ -112,7 +145,7 @@ For stroke, the model excels in all metrics, showcasing a strong ability to dist
 
 **Result**: After december 2012, the trend of the total bike users tend to a bit uptrend. and the forecast pattern during following the actual data visually following the pattern.
 
-## 4. JKSE Stock Price Prediction Using Long-Short Term Memory With and Without Stationarity Input
+## 5. JKSE Stock Price Prediction Using Long-Short Term Memory With and Without Stationarity Input
 
 ![Alt text](https://github.com/NauvalMuzaki7/LSTM_Project/blob/main/Screenshot%202025-03-03%20at%2015.15.12.png)
 **Description**: In conducting LSTM (Long Short-Term Memory) analysis using JKSE (Jakarta Stock Exchange) stock prices, the focus lies on leveraging LSTM, a type of recurrent neural network (RNN), renowned for its capability to capture long-term dependencies in sequential data, to predict future stock price movements.  
@@ -145,7 +178,7 @@ JKSE Stock Index Close Price data using stationarity handling modeled using the 
 
 Meanwhile, JKSE Stock Index Close Price Data without using stationarity handling modeled using the five methods, the best model for predicting validation data is to use the Bidirectional LSTM method with an RMSE value of 26.26 and an MAE value of 20.44. Meanwhile, to predict the next 4 periods (days) of data, the best model is the Vanilla LSTM model with an RMSE value of 37.21 and MAE of 28.72.
 
-## 5. K-Means Clustering of Poverty in Central Java
+## 6. K-Means Clustering of Poverty in Central Java
 
 ![Alt text](https://github.com/NauvalMuzaki7/Clustering_Project/blob/main/Screenshot%202025-03-02%20at%2016.24.23.png)
 **Description**: Poverty poses a complex challenge and is a significant issue in Indonesia. The province of Central Java is characterized by a substantial population living in poverty. The aim of this research is to conduct an analysis of poverty clustering based on Districts/Cities in Central Java in 2021 using the K-Means Clustering method. As analytical material, secondary data comprising poverty indicators from the Central Statistics Agency of Central Java for the year 2021 has been utilized. The K-Means Clustering method is employed to group Districts/Cities based on similar characteristics of poverty.  
@@ -164,7 +197,7 @@ Meanwhile, JKSE Stock Index Close Price Data without using stationarity handling
 ### K-Means Clustering
 Based on the results of determining the number of clusters using the silhouette method, the ideal number of clusters obtained is 2 clusters. This means that the classification of poverty in the regions of Central Java Province in 2021 will be grouped into 2 clusters.  
 
-## 6. Using Multidimensional Scaling for Grouping Social Media Influencers
+## 7. Using Multidimensional Scaling for Grouping Social Media Influencers
 
 ![Alt text](https://github.com/NauvalMuzaki7/MDS_Project/blob/main/Screenshot%202025-03-02%20at%2016.54.50.png)
 **Description**: This project aims to group social media influencers based on multiple factors such as follower count, engagement rates, and post frequency, using Multidimensional Scaling (MDS). MDS is used to visualize the similarity or dissimilarity between influencers, providing insights into how different influencers compare and form clusters.
@@ -187,12 +220,10 @@ Based on the results of determining the number of clusters using the silhouette 
 
 **Result**: Visual representation of influencers in a 2D space, highlighting clear clusters based on engagement and reach.
 
-### Link to Project
-
-
 
 ### Link to Project
 
+- [Fine-Tuning Two Stage IndoBERT vs. Zero-Shot Gemini API](https://github.com/NauvalMuzaki7/GeminiAPI-VS-IndoBERT): Repository of Text Classification Project
 - [SANO: Disease Condition Predictor](https://github.com/NauvalMuzaki7/SANO_Bangkit-Academy-Project): Repository of Classification Machine Learning Project
 - [US Flight Delay Dashboard](https://public.tableau.com/shared/WY9DGK558?:display_count=n&:origin=viz_share_link): Interactive Tableau dashboard analyzing US flight delays. 
 - [Bike Sharing Project](https://github.com/NauvalMuzaki7/Data_Analysis_Project): Showing all analysis steps of Bike Sharing Dataset.
