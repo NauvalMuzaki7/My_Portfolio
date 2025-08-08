@@ -7,7 +7,7 @@ As a Bachelor of Statistics, I bring a robust foundation in data analysis, visua
 
 ## 1. Text Classification: A Comparative Analysis of Fine-Tuning Two Stage IndoBERT vs. Zero-Shot Gemini API
 
-![Project Architecture]([https://i.imgur.com/L13G3sH.png](https://github.com/NauvalMuzaki7/GeminiAPI-VS-IndoBERT/blob/main/1.png))
+![Project Architecture](https://github.com/NauvalMuzaki7/GeminiAPI-VS-IndoBERT/blob/main/1.png)
 
 **Description**: This project conducts an in-depth comparative analysis between two advanced approaches for text classification on customer feedback data. The objective is to evaluate the trade-offs between a "classical" fine-tuning-based method (using a **Two-Stage IndoBERT**) and a "modern" Large Language Model-based method (using the **Gemini API** in a zero-shot setting). This case study seeks to answer the question: when should we invest in a complex, specialized model, and when can we leverage the power of a generalist model for fast and flexible results?
 
